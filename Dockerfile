@@ -9,4 +9,4 @@ RUN yum install git -y
 RUN git clone https://github.com/HL7644/docker_prerequisite.git
 
 # install packages
-RUN pip install -r requirements.txt
+RUN pip install -r docker_prerequisite/requirements.txt
